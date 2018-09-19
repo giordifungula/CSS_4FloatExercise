@@ -1,0 +1,51 @@
+body {
+	background: #eee;
+	margin: 0;
+}
+
+.box {
+	/*styling the boxes*/
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#boxA {
+	background: yellow;
+}
+#boxB{
+	background: green;
+}
+#boxC{
+	background: blue;
+}
+#boxD {
+	background: white;
+}
+
+/*	Hover Tools*/
+#boxA:hover {
+	background: green;
+}
+#boxA:active {
+	background: pink;
+}
+#boxB:hover {
+	background: white;
+}
+#boxB:active {
+	background: purple;
+}
+#boxC:hover {
+	background: yellow;
+	width: 600px;
+}
+#boxC:active {
+	background: #3df;
+}
+#boxD:hover {
+	background: red;
+}
+#boxD:active {
+	background: #fee;
+	width: 50px;
+}
